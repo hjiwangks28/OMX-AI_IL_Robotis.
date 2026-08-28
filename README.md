@@ -11,6 +11,11 @@
 서보모터 ID wizard 2.0세팅
 https://www.notion.so/zeta7/1-DXL-Wizard-2-0-29e0db9684a380d6b4e6e3be034ee353
 
+### 2-1. omx ai sw
+* [ROBOTIS OMX 초기 환경 설정 가이드](https://docs.google.com/document/d/1nVPpddZFEmMNPOWRhMpxOqIHuN1Idza9HXKlFr57xkY/edit?usp=drivesdk)
+* **환경 구축 자동화 스크립트 사용 (`ROBOTIS_OMX_Software.zip`)**
+  * `install_omx.sh`: Miniconda(aarch64), Python 3.10(lerobot 환경), ffmpeg, LeRobot 및 DYNAMIXEL SDK 자동 설치
+  * `check_ports.sh`: 리더(Leader) 및 팔로워(Follower) 로봇의 시리얼 포트(`/dev/ttyACM*`) 상태 확인
 
 ### 3. 데이터 수집 및 전처리
 * [데이터 사이언스 기초 (Pandas/Numpy)](https://pandas.pydata.org/docs/user_guide/10min.html)
